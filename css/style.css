@@ -23,8 +23,8 @@ h1 {
   font-size: 40px;
   background-color: var(--borderAndBackgroundColor);
   color: var(--maintextcolor);
-  padding: 5px 10px 5px 60px;
-  margin: 10px;
+  
+  
 }
 
 h2 {
@@ -32,9 +32,10 @@ h2 {
   color: var(--maintextcolor);
   text-align: center;
   background-color: var(--borderAndBackgroundColor);
+  border-radius: 15pt;
   height: 50px;
   width: 280px;
-  padding: 5px 10px 5px 10px;
+  
   
        
 }
@@ -69,8 +70,8 @@ h3 {
 }
 
 #myphoto img{
-  height: 180;
-  width: 150px;
+  /* height: 180; */
+  width: 200px;
   border-radius: 15pt;
   margin-left: 20px;
   
