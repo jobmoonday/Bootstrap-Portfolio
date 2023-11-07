@@ -25,7 +25,7 @@ N/A
 The navbar at the top provides links to the sections About Me, Work (Projects & Apps), Contact Me and Resume. If you click on the desired link, you are directed to relevant section. You can get detailed information and links to my projects and apps when you click on anywhere on the background picture of each 
 section.
 
-https://jobmoonday.github.io/myportfoliopage/
+https://jobmoonday.github.io/Bootstrap-Portfolio/
 
 ## Screenshots of the app
 ![alt text](Screenshot_1.png)
