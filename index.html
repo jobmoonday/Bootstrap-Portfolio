@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
+  <title>EYUP AYGUN // Front-End Developer</title>
   <link rel="stylesheet" href="css/style.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
@@ -22,9 +22,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link" href="#">About Me</a>
-            <a class="nav-link" href="#">Work</a>
-            <a class="nav-link" href="#">Contact Me</a>
+            <a class="nav-link" href="#aboutMePara">About Me</a>
+            <a class="nav-link" href="#portfolioContent">Work</a>
+            <a class="nav-link" href="#contactMePart">Contact Me</a>
             <a class="nav-link" href="#">Resume</a>
           </div>
         </div>
@@ -38,7 +38,7 @@
  
   <section class="hero-banner">
     <div id="subtitle">
-      <h2>5-star Developer</h2>
+      <h2>Front-End Developer</h2>
     </div>
     <div id="myphoto">
         <img src="images/myphoto.png" alt="myphoto">
@@ -49,12 +49,12 @@
     
     <!-- about me -->
 
-    <div class="container-fluid text-center mt-5">
+    <div class="container text-center mt-5">
       <div class="row row-cols-2">
         <div class="col-2 fs-2 text-end border-end border-secondary border-5">About <br> Me</div>
         
         <div class="col-10 lh-base">
-          <p class="lh-base text-start ms-2" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nemo exercitationem nobis veniam quam tenetur facilis accusamus repellendus cumque laborum fugit sapiente, nostrum rem tempore quo, est eius sequi repellat. <br>
+          <p class="lh-base text-start ms-2" id="aboutMePara" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nemo exercitationem nobis veniam quam tenetur facilis accusamus repellendus cumque laborum fugit sapiente, nostrum rem tempore quo, est eius sequi repellat. <br>
           Recusandae, quo obcaecati. Reiciendis vero non corporis officia quis adipisci, temporibus quas ipsa eaque iusto? Obcaecati amet veritatis nulla aspernatur laboriosam quidem, nihil, odit corrupti, facere accusamus expedita explicabo adipisci. <br>
           Incidunt nulla, architecto, fuga possimus aperiam dignissimos soluta rem animi eos atque provident dolorem quaerat qui maxime id accusamus ullam cumque quis quod. Recusandae nulla accusamus itaque similique, quas nesciunt! <br>
           Ducimus error perferendis ad, harum rem consectetur odit cum nesciunt. Veritatis maxime voluptatum possimus officiis nobis quos earum architecto tempore porro, explicabo esse corporis alias cum rem eum eius expedita!</p>
@@ -62,32 +62,31 @@
         
       </div>
     </div>
-     <!-- about end -->
-       
+     <!-- about me end -->
 
     <!-- portfolio start -->
 
-    <div class="container-fluid text-center mt-5">
+    <div class="container text-center mt-5" id="portfolioContent">
       <div class="row row-cols-2">
         <div class="col-2 fs-2 text-end border-end border-secondary border-5">WORK</div>
         
         <div class="col-10">
-          <div class="row ">
-            <div class="col-4 col-sm-12 col-md-6 col-lg-4">
 
+          <div class="row ">
+            <div class="col-6 col-sm-6">
               <div class="card" style="width: 24rem;">
-                <img src="images/02-portfolio-2.jpg" class="card-img-top" alt="..." height="250px">
+                <img src="images/02-portfolio-2.jpg" class="card-img-top w-100" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Sci-Calc</h5>
-                  <p class="card-text">A scientific calculator app</p>
+                  <p class="
+                  card-text">A scientific calculator app</p>
                   <a href="#" class="btn btn-outline-primary">Click to explore</a>
                 </div>
               </div>
             </div>
-            <div class="col-4 col-sm-12 col-md-6 col-lg-4">
-    
+            <div class="col-6 col-sm-6">    
               <div class="card" style="width: 24rem;">
-                <img src="images/shoppinglist.jpg" class="card-img-top" alt="..."height="250px">
+                <img src="images/shoppinglist.jpg" class="card-img-top" alt="..." >
                 <div class="card-body">
                   <h5 class="card-title">Shopping List</h5>
                   <p class="card-text">A shopping list app with amazing features</p>
@@ -95,11 +94,12 @@
                 </div>
               </div>
             </div>
-    
-            <div class="col-4 col-sm-12 col-md-6 col-lg-4">
-    
+          </div>
+
+          <div class="row ">
+            <div class="col-6 col-sm-6">    
               <div class="card" style="width: 24rem;">
-                <img src="images/vocabapp.jpg" class="card-img-top" alt="..." height="250px">
+                <img src="images/vocabapp.jpg" class="card-img-top" alt="..." >
                 <div class="card-body">
                   <h5 class="card-title">Vocab-Me</h5>
                   <p class="card-text">A great vocabulary builder!</p>
@@ -107,14 +107,10 @@
                 </div>
               </div>
             </div>
-
-          </div>
-
-          <div class="row mt-3 ">
-            <div class="col-4 col-sm-12 col-md-6 col-lg-4">
-
+              
+            <div class="col-6 col-sm-6">
               <div class="card" style="width: 24rem;">
-                <img src="images/medicine.jpg" class="card-img-top" alt="..." height="250px">
+                <img src="images/medicine.jpg" class="card-img-top" alt="..." >
                 <div class="card-body">
                   <h5 class="card-title">MediRemind</h5>
                   <p class="card-text">This app is a great tool for people on medication.</p>
@@ -122,22 +118,22 @@
                 </div>
               </div>
             </div>
-            <div class="col-4 col-sm-12 col-md-6 col-lg-4">
-    
+          </div>
+
+          <div class="row">
+            <div class="col-6 col-sm-6">    
               <div class="card" style="width: 24rem;">
-                <img src="images/blackjack.jpg" class="card-img-top" alt="..." height="250px">
+                <img src="images/blackjack.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Black Jack</h5>
                   <p class="card-text">Classic Black Jack game with great graphics</p>
                   <a href="#" class="btn btn-outline-primary">Click to explore</a>
                 </div>
               </div>
-            </div>
-    
-            <div class="col-4 col-sm-12 col-md-6 col-lg-4">
-    
+            </div>    
+            <div class="col-6 col-sm-6">    
               <div class="card" style="width: 24rem;">
-                <img src="images/counter2.png" class="card-img-top" alt="..." height="250px">
+                <img src="images/counter2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Mini Counter</h5>
                   <p class="card-text">A basic counter app to count anything. </p>
@@ -145,12 +141,8 @@
                 </div>
               </div>
             </div>
-
-          </div>
-          
-
-          
-          
+          </div>  
+        
         </div>
         
       </div>
@@ -160,6 +152,50 @@
     <!-- portfolio end -->
 
     <!-- Contact Me -start -->
+
+    
+
+      <section>  
+        <div class="container text-center mt-5" id="contactMe">
+          <div class="row row-cols-2">
+            <div class="col-2 fs-2 text-end border-end border-secondary border-5">CONTACT <BR> ME</BR></div>
+
+                            <div class="col-10">
+                              <div class="container">
+                                <footer class="py-3 my-4">
+                                  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                                    <li class="nav-item"><a href="#07835160632" class="nav-link px-2 text-body-secondary">Phone</a></li>
+                                    <li class="nav-item"><a href="mailto:enversdet@gmail.com" class="nav-link px-2 text-body-secondary">Email</a></li>
+                                    <li class="nav-item"><a href="https://github.com/jobmoonday" class="nav-link px-2 text-body-secondary">Github</a></li>
+                                    <li class="nav-item"><a href="#Twitter" class="nav-link px-2 text-body-secondary">Twitter</a></li>
+                                   
+                                  </ul>
+                                  <p class="text-center text-body-secondary">© 2023 EYUP AYGUN</p>
+                                </footer>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                     
+
+
+                        </div>
+             
+                        
+
+       
+      </section>
+
+
+
+
+
+
+
+     
+       
+     
+
 
 
 
